@@ -1,0 +1,225 @@
+html,body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #FFF;
+	font-family: "Lucida Grande", "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, sans-serif;
+}
+
+.loadingWrap {
+	width: 100%;
+	height: 100%;
+	background: #FFF;
+	position: fixed;
+	top: 0;
+	left: 0;
+  z-index: 10000;
+}
+
+.loadingWrap img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -150px;
+}
+
+.loadingWrap p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height:50px;
+  margin-top: 0px;
+  margin-left: -150px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  overflow: hidden;
+}
+
+footer {
+  width: 100%;
+  position: relative;
+  clear: both;
+  bottom: 0px;
+}
+
+.takamatta-button-wrap {
+  width:100%;
+}
+
+.takamatta-button-wrap > a {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.modal-content {
+  overflow: hidden;
+}
+
+.takamari-main {
+  position: relative;
+}
+
+.takamari-main > span {
+  position: absolute;
+  right: 0;
+  font-size: 3em;
+  color: white;
+  text-shadow: 0px 0px 2px #000;
+  margin-right: 10px;
+}
+
+.takamari-main > img {
+  width: 100%;
+  height: auto;
+}
+
+.takamatter-header {
+  position: relative;
+  float: left;
+  color: #1A1A1A;
+  background-color: transparent;
+}
+
+.takamatter-menu {
+  position: relative;
+  padding: 0;
+  float: right !important;
+  margin: 0;
+  height: 80px;
+  list-style-type: none;
+}
+
+.takamatter-menu > li {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  padding: 0;
+  margin: 0;
+  display: block;
+  float: right;
+}
+
+.write-button > a {
+  display: block;
+  margin-left: 25px;
+  margin-top: 25px;
+  width: 50%;
+  height: 50%;
+}
+
+
+.refresh-button > a {
+  display: block;
+  margin-left: 25px;
+  margin-top: 25px;
+  width: 50%;
+  height: 50%;
+}
+
+.form-wrap {
+  position: relative;
+  width: 50%;
+  clear: both;
+}
+
+.main {
+  padding-top: 60px;
+  position: relative;
+  min-height: 100%;
+  width: 100%;
+  clear: both;
+  overflow: hidden;
+}
+
+nav {
+  opacity: 0.8;
+}
+
+.maru-wrap {
+    position: absolute;
+    padding: 0;
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.square {
+  padding: 0;
+}
+
+.square:after {
+    padding-top: 100%;
+    display: block;
+    content: "";
+}
+
+.maru {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-size: contain;
+}
+
+.maru > a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-indent: -999px;
+}
+
+.maru > p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  font-size: 1.1em;
+  text-shadow: 1px 1px 1px #FFF;
+  width: 75%;
+  overflow: hidden;
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.bg0 {
+  background-image: url('images/shabon1.png');
+}
+
+.bg1 {
+  background-image: url('images/shabon2.png');
+}
+
+.bg2 {
+  background-image: url('images/shabon3.png');
+}
+
+.bg3 {
+  background-image: url('images/shabon4.png');
+}
+
+.anime {
+  background-image: url('images/anime2.gif');
+}
+
+.hide-text {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
